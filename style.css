@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-area {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .input-area input {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .input-area button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkout-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .checkout {
+    flex: 1;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #fafafa;
+  }
+  
+  .checkout h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .queue {
+    min-height: 50px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    background: #fff;
+  }
+  
+  .queue span {
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 10px;
+    background: #e0e0e0;
+    border-radius: 4px;
+  }
+  
