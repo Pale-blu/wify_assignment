@@ -12,10 +12,10 @@ function renderCheckouts() {
     div.innerHTML = `
       <div class="header">
         <h3 class="counter-title">Counter ${index + 1}</h3>
-        <span class="counter-count">${entriesCount} entries</span>
+        <span class="counter-count">${entriesCount} Customers</span>
       </div>
       <div class="queue">
-        ${queue.map(item => `<span>${item}</span>`).join('')}
+        ${queue.map(item => `<span>${item} items</span>`).join('')}
         <p class="total">Total items: ${totalItems}</p>
       </div>
     `;
