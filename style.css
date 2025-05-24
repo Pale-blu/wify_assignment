@@ -18,7 +18,10 @@ body {
     text-align: center;
     margin-bottom: 20px;
   }
-  
+  p{
+    text-align: center;
+    margin-bottom: 20px;
+  }
   .input-area {
     display: flex;
     justify-content: center;
@@ -76,4 +79,24 @@ body {
     background: #e0e0e0;
     border-radius: 4px;
   }
-  
+  .total {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: gray;
+  }
+
+  .header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+  }
+
+  .counter-title {
+    font-size: 1.2em; 
+    margin: 0;
+  }
+
+  .counter-count{
+    font-size: 1em;
+  }
